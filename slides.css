@@ -1,0 +1,48 @@
+slide {
+  display: none;
+}
+
+slide.active {
+  display: block;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+  width: 1024px;
+  height: 768px;
+}
+
+code, pre {
+  font-size: 25px;
+  line-height: 105%;
+  font-family: 'Courier new';
+}
+
+ul {
+  padding-left: 15px;
+}
+
+li {
+  line-height: 135%;
+}
+
+
+h1 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 44px;
+}
+
+slide {
+  padding: 15px;
+  line-height: 130%;
+  font-size: 28px;
+}
